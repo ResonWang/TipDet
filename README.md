@@ -1,5 +1,4 @@
 # TipDet
-TipDet's performance in the process of thyroid insertion  
 https://github.com/ResonWang/TipDet/assets/67107572/9ffe73e6-1e69-413f-80cc-040146325ea8
 ## 1. data pipeline
 + step1: run ___generate_label_txt.py___ to get label.txt 
