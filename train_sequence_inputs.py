@@ -76,9 +76,9 @@ if __name__ == "__main__":
     #------------------------------------------------------------------#
     Init_lr             = 1e-4
     Min_lr              = Init_lr * 0.01
-    optimizer_type      = "adam"
-    momentum            = 0.9
-    weight_decay        = 1e-3
+    optimizer_type      = "sgd"  # adam
+    momentum            = 0.94   # 0.9
+    weight_decay        = 5e-4   # 1e-3
     lr_decay_type       = "cos"
     #------------------------------------------------------------------#
     #   save and log
